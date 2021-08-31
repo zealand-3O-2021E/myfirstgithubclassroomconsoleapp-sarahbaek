@@ -12,11 +12,11 @@ namespace MyFirstGitHubClassRoomConsoleApp
         private int _age;
         private bool _married;
 
-        public Myself(string Name, int Age, bool Married)
+        public Myself(string name, int age, bool married)
         {
-            _name = Name;
-            _age = Age;
-            _married = Married;
+            _name = name;
+            _age = age;
+            _married = married;
         }
 
         public string Name { get => _name; set => _name = value; }
